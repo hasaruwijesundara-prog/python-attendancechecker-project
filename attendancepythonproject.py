@@ -12,14 +12,14 @@ students_data = []
 def add_student():
     student_id = input("Enter Student ID : ")
     student_name = input("Enter Student Name : ")
-    student_course = input("Enter the course chosen ")
+    student_course = input("Enter the course chosen ") #the student course has been inputted 
     classes_attended = int(input("Enter Classes Attended : "))
     total_classes = int(input("Enter Total Classes : "))
 
     new_student = {
         "Student ID": student_id,
         "Student Name": student_name,
-        "Student Course" : student_course,
+        "Student Course" : student_course, #student course has been updated in the dictionary
         "Total classes": total_classes,
         "Classes Attended": classes_attended
     }
