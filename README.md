@@ -1,5 +1,4 @@
 # python-attendancechecker-project
-Attendance project written in python code.
 Project title : Attendance system 
 Name : Hasaru Wijesundara
 
